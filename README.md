@@ -93,10 +93,16 @@ Visit the **[GitHub Releases](https://github.com/Bin-Huang/chatbox/releases)** t
 </tr>
 </table> -->
 
--   Enhanced prompting capability
 -   Data is stored locally and will not be lost
--   Supports multiple cutting-edge LLM models and providers, such as OpenAI, Azure OpenAI and ChatGLM-6B
+-   Supports multiple cutting-edge LLM models and providers
+    -   OpenAI (ChatGPT)
+    -   Azure OpenAI
+    -   Claude
+    -   Google Gemini Pro
+    -   Ollama (enabling easy access to locally deployed models such as llama2, Mistral, Mixtral, codellama, vicuna, yi, and solar)
+    -   ChatGLM-6B
 -   Supports Dall-E-3, real-time image generation
+-   Enhanced prompting capability
 -   Keyboard shortcuts for improved productivity
 -   Markdown & Code Highlighting
 -   Prompt Library, Message Quoting
@@ -106,6 +112,16 @@ Visit the **[GitHub Releases](https://github.com/Bin-Huang/chatbox/releases)** t
 -   Providing installation packages, no deployment required
 -   Cross-platform, available on Windows, Mac, Linux
 -   Web version, available on any device with a browser
+-   iOS & Android version, coming soon
+-   Multilingual Support
+    -   English
+    -   简体中文
+    -   繁體中文
+    -   日本語
+    -   한국어
+    -   Français
+    -   Deutsch
+    -   Русский
 -   More...
 
 ## FAQ
@@ -147,11 +163,13 @@ At first, I didn't know that it would be so popular. I listened to the feedback 
 -   [x] Dall-E-3
 -   [x] Message Search
 -   [x] Data Export
--   [ ] Mobile(Android, iOS)
+-   [x] Support for Google Gemini Pro
+-   [x] Support for Ollama (llama2, Mistral, Mixtral, codellama, vicuna, yi, and solar)
+-   [x] Thread archive, history message list
+-   [x] Mobile (Android, iOS)
 -   [ ] Talk with files
 -   [ ] Talk with URLs
 -   [ ] Cross-device synchronization
--   [ ] threads(like Slack)
 -   More...
 
 ## How to Contribute
@@ -165,6 +183,26 @@ Any form of contribution is welcome, including but not limited to:
 -   Submitting documentation revisions
 -   Submitting translations
 -   Submitting any other forms of contribution
+
+## Build Instructions for Chatboxai (Mac, Windows, Linux)
+
+1. Clone the repository from Github using the following command:
+
+```bash
+git clone https://github.com/Bin-Huang/chatbox.git
+```
+
+2. Install the required dependencies by running the following command:
+
+```bash
+npm install
+```
+
+3. Start the application by running the following command:
+
+```bash
+npm start
+```
 
 ## Buy Me a Coffee
 
